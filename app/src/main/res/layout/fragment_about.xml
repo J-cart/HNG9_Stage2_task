@@ -24,8 +24,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/aboutText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/aboutText"
-            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
-            />
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -48,8 +47,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="20dp"
-
             android:text="@string/full_about"
+            android:textAlignment="center"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,8 +61,8 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
-            android:text="Main Skills"
             android:fontFamily="@font/capriola"
+            android:text="Main Skills"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -252,10 +251,10 @@
             android:id="@+id/skillsText"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fontFamily="@font/capriola"
             android:layout_marginStart="32dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="32dp"
+            android:fontFamily="@font/capriola"
             android:text="Soft Skills"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -290,8 +289,8 @@
 
             android:layout_marginStart="32dp"
             android:layout_marginTop="30dp"
-android:fontFamily="@font/capriola"
             android:layout_marginEnd="32dp"
+            android:fontFamily="@font/capriola"
             android:text="Contact me"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -314,8 +313,8 @@ android:fontFamily="@font/capriola"
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:padding="10dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="10dp">
 
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -323,11 +322,11 @@ android:fontFamily="@font/capriola"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
+                    android:src="@drawable/ic_twitter_svgrepo_com"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
-                    android:src="@drawable/ic_twitter_svgrepo_com" />
+                    app:layout_constraintVertical_bias="1.0" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -387,8 +386,8 @@ android:fontFamily="@font/capriola"
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:padding="10dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="10dp">
 
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -398,11 +397,11 @@ android:fontFamily="@font/capriola"
 
 
                     android:scaleType="fitXY"
+                    android:src="@drawable/ic_linkedin_svgrepo_com"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
-                    android:src="@drawable/ic_linkedin_svgrepo_com" />
+                    app:layout_constraintVertical_bias="1.0" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

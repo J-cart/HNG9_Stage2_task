@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="false"
     tools:context=".WelcomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,7 +41,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/progressHostCard"
             android:layout_width="0dp"
-            android:layout_height="300dp"
+            android:layout_height="280dp"
             android:layout_margin="20dp"
             android:elevation="40dp"
             app:cardCornerRadius="10dp"
