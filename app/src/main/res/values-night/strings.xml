@@ -1,0 +1,11 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">HNG Stage2 Task</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_about"> I\'m a
+Independent,self- motivated and personable android developer eager to join your company to help in developing android applications with kotlin, modern android development patterns and architectures.
+</string>
+    <string name="user_name">Joseph Timothy</string>
+    <string name="job_title">Native Mobile Developer(Kotlin)</string>
+    <string name="short_info">Android developer currently undergoing internship @HNG, familiar with components used to build android apps. </string>
+</resources>
