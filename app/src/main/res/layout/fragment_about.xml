@@ -90,7 +90,7 @@
 
 
                 <TextView
-                    android:id="@+id/hp"
+                    android:id="@+id/kotlinText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -102,15 +102,15 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <com.skydoves.progressview.ProgressView
-                    android:id="@+id/progress_hp"
+                    android:id="@+id/progress_rate"
                     android:layout_width="0dp"
                     android:layout_height="18dp"
-                    android:layout_marginStart="32dp"
+                    android:layout_marginStart="40dp"
                     android:layout_marginEnd="32dp"
-                    app:layout_constraintBottom_toBottomOf="@id/hp"
+                    app:layout_constraintBottom_toBottomOf="@id/kotlinText"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/hp"
-                    app:layout_constraintTop_toTopOf="@id/hp"
+                    app:layout_constraintStart_toEndOf="@id/kotlinText"
+                    app:layout_constraintTop_toTopOf="@id/kotlinText"
                     app:progressView_colorBackground="#F3C0C0"
                     app:progressView_colorProgress="@color/purple_500"
                     app:progressView_labelColorInner="@color/white"
@@ -122,7 +122,7 @@
                     app:progressView_radius="12dp" />
 
                 <TextView
-                    android:id="@+id/attack"
+                    android:id="@+id/gitText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -131,28 +131,28 @@
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/hp" />
+                    app:layout_constraintTop_toBottomOf="@id/kotlinText" />
 
                 <com.skydoves.progressview.ProgressView
                     android:layout_width="0dp"
                     android:layout_height="18dp"
                     android:layout_marginEnd="32dp"
-                    app:layout_constraintBottom_toBottomOf="@id/attack"
+                    app:layout_constraintBottom_toBottomOf="@id/gitText"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/progress_hp"
-                    app:layout_constraintTop_toTopOf="@id/attack"
+                    app:layout_constraintStart_toStartOf="@id/progress_rate"
+                    app:layout_constraintTop_toTopOf="@id/gitText"
                     app:progressView_colorBackground="#F3C0C0"
                     app:progressView_colorProgress="@color/teal_200"
                     app:progressView_labelColorInner="@color/white"
                     app:progressView_labelColorOuter="@color/black"
                     app:progressView_labelSize="12sp"
-                    app:progressView_labelText="67/100"
+                    app:progressView_labelText="53/100"
                     app:progressView_max="100"
-                    app:progressView_progress="67"
+                    app:progressView_progress="53"
                     app:progressView_radius="12dp" />
 
                 <TextView
-                    android:id="@+id/defense"
+                    android:id="@+id/firebaseText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -161,28 +161,28 @@
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/attack" />
+                    app:layout_constraintTop_toBottomOf="@id/gitText" />
 
                 <com.skydoves.progressview.ProgressView
                     android:layout_width="0dp"
                     android:layout_height="18dp"
                     android:layout_marginEnd="32dp"
-                    app:layout_constraintBottom_toBottomOf="@id/defense"
+                    app:layout_constraintBottom_toBottomOf="@id/firebaseText"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/progress_hp"
-                    app:layout_constraintTop_toTopOf="@id/defense"
+                    app:layout_constraintStart_toStartOf="@id/progress_rate"
+                    app:layout_constraintTop_toTopOf="@id/firebaseText"
                     app:progressView_colorBackground="#F3C0C0"
                     app:progressView_colorProgress="#35C8BA"
                     app:progressView_labelColorInner="@color/white"
                     app:progressView_labelColorOuter="@color/black"
                     app:progressView_labelSize="12sp"
-                    app:progressView_labelText="40/100"
+                    app:progressView_labelText="49/100"
                     app:progressView_max="100"
-                    app:progressView_progress="40"
+                    app:progressView_progress="49"
                     app:progressView_radius="12dp" />
 
                 <TextView
-                    android:id="@+id/speed"
+                    android:id="@+id/androidText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -191,16 +191,16 @@
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/defense" />
+                    app:layout_constraintTop_toBottomOf="@id/firebaseText" />
 
                 <com.skydoves.progressview.ProgressView
                     android:layout_width="0dp"
                     android:layout_height="18dp"
                     android:layout_marginEnd="32dp"
-                    app:layout_constraintBottom_toBottomOf="@id/speed"
+                    app:layout_constraintBottom_toBottomOf="@id/androidText"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/progress_hp"
-                    app:layout_constraintTop_toTopOf="@id/speed"
+                    app:layout_constraintStart_toStartOf="@id/progress_rate"
+                    app:layout_constraintTop_toTopOf="@id/androidText"
                     app:progressView_colorBackground="#F3C0C0"
                     app:progressView_colorProgress="#DEACF4"
                     app:progressView_labelColorInner="@color/white"
@@ -212,25 +212,56 @@
                     app:progressView_radius="12dp" />
 
                 <TextView
-                    android:id="@+id/exp"
+                    android:id="@+id/dbText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="12dp"
-                    android:text="Pending"
+                    android:layout_marginRight="20dp"
+                    android:text="Room/SQL"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/speed" />
+                    app:layout_constraintTop_toBottomOf="@id/androidText" />
 
                 <com.skydoves.progressview.ProgressView
                     android:layout_width="0dp"
                     android:layout_height="18dp"
                     android:layout_marginEnd="32dp"
-                    app:layout_constraintBottom_toBottomOf="@id/exp"
+                    app:layout_constraintBottom_toBottomOf="@id/dbText"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/progress_hp"
-                    app:layout_constraintTop_toTopOf="@id/exp"
+                    app:layout_constraintStart_toStartOf="@id/progress_rate"
+                    app:layout_constraintTop_toTopOf="@id/dbText"
+                    app:progressView_colorBackground="#F3C0C0"
+                    app:progressView_colorProgress="@color/teal_200"
+                    app:progressView_labelColorInner="@color/white"
+                    app:progressView_labelColorOuter="@color/black"
+                    app:progressView_labelSize="12sp"
+                    app:progressView_labelText="60/100"
+                    app:progressView_max="100"
+                    app:progressView_progress="60"
+                    app:progressView_radius="12dp" />
+
+                <TextView
+                    android:id="@+id/othersText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Others..."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/dbText" />
+
+                <com.skydoves.progressview.ProgressView
+                    android:layout_width="0dp"
+                    android:layout_height="18dp"
+                    android:layout_marginEnd="32dp"
+                    app:layout_constraintBottom_toBottomOf="@id/othersText"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/progress_rate"
+                    app:layout_constraintTop_toTopOf="@id/othersText"
                     app:progressView_colorBackground="#F3C0C0"
                     app:progressView_colorProgress="@color/teal_200"
                     app:progressView_labelColorInner="@color/white"
@@ -299,7 +330,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/whatsappIcon"
+            android:id="@+id/LinkedlnIcon"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="8dp"
@@ -318,11 +349,11 @@
 
 
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/socialIconWhatsapp"
+                    android:id="@+id/socialIconLinkedln"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_twitter_svgrepo_com"
+                    android:src="@drawable/ic_linkedin_svgrepo_com"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -360,7 +391,7 @@
 
 
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_github_svgrepo_com"
+                    android:src="@drawable/ic_twitter_svgrepo_com"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -372,7 +403,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/gitIon"
+            android:id="@+id/gitIcon"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="8dp"
@@ -397,7 +428,7 @@
 
 
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_linkedin_svgrepo_com"
+                    android:src="@drawable/ic_github_svgrepo_com"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"

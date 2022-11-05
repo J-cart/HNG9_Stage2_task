@@ -8,4 +8,7 @@ Independent,self- motivated and personable android developer eager to join your 
     <string name="user_name">Joseph Timothy</string>
     <string name="job_title">Native Mobile Developer(Kotlin)</string>
     <string name="short_info">Android developer currently undergoing internship @HNG, familiar with components used to build android apps. </string>
+    <string name="twitter_link">https://twitter.com/LazySadist</string>
+    <string name="linkedln_link">https://www.linkedin.com/in/joseph-timothy-a4778320b/</string>
+    <string name="git_link">https://github.com/J-cart</string>
 </resources>
