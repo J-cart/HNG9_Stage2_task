@@ -1,7 +1,7 @@
 # HNG9_Stage2_task
 HNG stage2 task
 <h1 align="center">Resume App</h1>
-  This is a mobile version of my resume or what would be my resume, **Note** not all the details here are accurate.
+  This is a mobile version of my resume or what would be my resume.
   
   ## Architecture
   - Since this app codebase isnt quite large MAD architecture patterns were nnot implemented, the main files can be found in [Main](https://github.com/J-cart/HNG9_Stage2_task/tree/master/app/src/main/java/com/tutorial/hng9_stage2_task), all libraries implemented is in the [build gradle](https://github.com/J-cart/HNG9_Stage2_task/blob/master/app/build.gradle)
