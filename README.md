@@ -7,7 +7,7 @@ HNG stage2 task
   - Since this app codebase isnt quite large MAD architecture patterns were nnot implemented, the main files can be found in [Main](https://github.com/J-cart/HNG9_Stage2_task/tree/master/app/src/main/java/com/tutorial/hng9_stage2_task), all libraries implemented is in the [build gradle](https://github.com/J-cart/HNG9_Stage2_task/blob/master/app/build.gradle)
             the layouts and other are also in [Resources](https://github.com/J-cart/HNG9_Stage2_task/tree/master/app/src/main/res).
             
- - Design: [Dribble](https://dribbble.com/shots/14436103-Resume-App) and[Skydoves pokedex github](https://github.com/skydoves/Pokedex) were referenced.
+ - Design: [Dribble](https://dribbble.com/shots/14436103-Resume-App) and [Skydoves pokedex github](https://github.com/skydoves/Pokedex) were referenced.
   
 ## Libraries and Tech stack
 - Minimum SDK level 21
